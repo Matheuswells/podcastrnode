@@ -3,10 +3,13 @@
     "target": "es5",
     "module": "commonjs",
     "sourceMap": true,
-    "outDir": "public"
+    "outDir": "public",
+    "resolveJsonModule": true
   },
   "include": [
-    "**/*"
+    "**/*",
+    "src/server.json"
+    
 ],
   "exclude": [
     "node_modules",

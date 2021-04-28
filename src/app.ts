@@ -1,6 +1,7 @@
 import * as express from "express";
 import * as fs from 'fs'
 import * as path from 'path'
+import * as config from './server.json';
 
 const app = express()
 let rawdata = String(fs.readFileSync(path.resolve(__dirname, 'server.json')))

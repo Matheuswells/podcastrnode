@@ -143,5 +143,7 @@ app.get('/', function (req, res) {
         ]
     });
 });
-exports.default = app;
+app.listen(80, function () {
+    console.log("Server running on http://localhost:80");
+});
 //# sourceMappingURL=app.js.map

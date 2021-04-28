@@ -145,4 +145,6 @@ app.get('/', (req, res) => {
 )
 })
 
-export default app
+app.listen(80,() => {
+  console.log(`Server running on http://localhost:80`)
+})
